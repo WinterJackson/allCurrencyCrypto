@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoSvg from "../assets/logo.svg";
+import logoSvg from "../assets/allcurrency.png";
 
 const Logo = () => {
   return (
     <Link
       to="/"
       className="
-     absolute top-[1.5rem] left-[1.5rem] [text-decoration:none]
-text-lg text-cyan flex items-center
+     relative top-[1rem] left-[1rem] 
+     border-b border-gold
      "
     >
-      <img src={logoSvg} alt="CryptoBucks" />
-      <span>CryptoBucks</span>
+      <img src={logoSvg} alt="allCurrency" />
     </Link>
   );
 };

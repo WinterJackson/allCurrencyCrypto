@@ -1,7 +1,7 @@
 import React, { useContext, useRef } from "react";
 import Search from "./Search";
 import submitIcon from "../assets/submit-icon.svg";
-import selectIcon from "../assets/select-icon.svg";
+// import selectIcon from "../assets/select-icon.svg";
 
 import { CryptoContext } from "./../context/CryptoContext";
 
@@ -24,15 +24,15 @@ const Filters = () => {
 
   return (
     <div
-      className="w-full h-12 border-2 border-gray-100 rounded-lg
-    flex items-center justify-between relative
+      className="w-full h-12 border-2 border-gold rounded-lg
+      grid grid-cols-2 items-center justify-between relative
     "
     >
       <Search />
-      <div className="flex mr-7">
+      <div className="flex justify-around">
         <form
-          className="relative flex items-center font-nunito
-          mr-12
+          className="relative flex flex-grow items-center font-nunito
+          
           "
           onSubmit={handleCurrencySubmit}
         >
@@ -49,9 +49,9 @@ const Filters = () => {
             name="currency"
             ref={currencyRef}
             placeholder="usd"
-            className="w-16 rounded bg-gray-200 placeholder:text-gray-100
-     pl-2 required outline-0 border border-transparent 
-     focus:border-cyan leading-4
+            className="w-16 rounded bg-gold placeholder:text-gray-100
+     pl-2 required outline-0 border border-gold 
+     focus:border-gold leading-4
      "
           />
           <button type="submit" className="ml-1 cursor-pointer">
@@ -77,16 +77,17 @@ const Filters = () => {
             <option value="gecko_desc">gecko desc</option>
             <option value="gecko_asc">gecko asc</option>
           </select>
-          <img
+          {/* <img
             src={selectIcon}
             alt="submit"
             className="w-[1rem] h-auto
          absolute right-1 top-2 pointer-events-none
          "
-          />
+          /> */}
         </label>
+
         <button
-          className="w-[2rem] ml-4 hover:scale-110 transition-all transition-ease
+          className="w-[2rem]  hover:scale-110 transition-all transition-ease
         relative
         "
           onClick={resetFunction}
@@ -96,7 +97,7 @@ const Filters = () => {
             width="1em"
             height="1em"
             viewBox="0 0 24 24"
-            className="w-full h-full fill-cyan"
+            className="w-full h-full fill-gold"
             style={{
               msTransform: "rotate(360deg)",
               WebkitTransform: "rotate(360deg)",

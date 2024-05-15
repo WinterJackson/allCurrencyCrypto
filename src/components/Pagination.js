@@ -40,7 +40,7 @@ const PerPage = () => {
         placeholder="10"
         className="w-16 rounded bg-gray-200 placeholder:text-gray-100
      pl-2 required outline-0 border border-transparent 
-     focus:border-cyan leading-4
+     focus:border-gold leading-4
      "
       />
       <button type="submit" className="ml-1 cursor-pointer">
@@ -94,7 +94,7 @@ const Pagination = () => {
         <PerPage />
         <ul className="flex items-center justify-end text-sm">
           <li className="flex items-center">
-            <button className="outline-0 hover:text-cyan w-8" onClick={prev}>
+            <button className="outline-0 hover:text-gold w-8" onClick={prev}>
               <img
                 className="w-full h-auto rotate-180"
                 src={paginationArrow}
@@ -108,7 +108,7 @@ const Pagination = () => {
               {" "}
               <button
                 onClick={multiStepPrev}
-                className="ouline-0 hover:text-cyan  rounded-full w-8 h-8 flex items-center justify-center text-lg    "
+                className="ouline-0 hover:text-gold  rounded-full w-8 h-8 flex items-center justify-center text-lg    "
               >
                 ...
               </button>
@@ -119,7 +119,7 @@ const Pagination = () => {
             <li>
               <button
                 onClick={prev}
-                className="ouline-0 hover:text-cyan  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
+                className="ouline-0 hover:text-gold  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
               >
                 {" "}
                 {page - 1}{" "}
@@ -129,7 +129,7 @@ const Pagination = () => {
           <li>
             <button
               disabled
-              className="ouline-0  rounded-full w-8 h-8 flex items-center justify-center bg-cyan text-gray-300 mx-1.5"
+              className="ouline-0  rounded-full w-8 h-8 flex items-center justify-center bg-gold text-gray-300 mx-1.5"
             >
               {page}
             </button>
@@ -139,7 +139,7 @@ const Pagination = () => {
             <li>
               <button
                 onClick={next}
-                className="ouline-0 hover:text-cyan  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
+                className="ouline-0 hover:text-gold  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
               >
                 {page + 1}
               </button>
@@ -151,7 +151,7 @@ const Pagination = () => {
               {" "}
               <button
                 onClick={multiStepNext}
-                className="ouline-0 hover:text-cyan  rounded-full w-8 h-8 flex items-center justify-center text-lg    "
+                className="ouline-0 hover:text-gold  rounded-full w-8 h-8 flex items-center justify-center text-lg    "
               >
                 ...
               </button>
@@ -162,14 +162,14 @@ const Pagination = () => {
             <li>
               <button
                 onClick={() => setPage(TotalNumber)}
-                className="ouline-0 hover:text-cyan  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
+                className="ouline-0 hover:text-gold  rounded-full w-8 h-8 flex items-center justify-center bg-gray-200 mx-1.5"
               >
                 {TotalNumber}
               </button>
             </li>
           ) : null}
           <li>
-            <button className="outline-0 hover:text-cyan w-8" onClick={next}>
+            <button className="outline-0 hover:text-gold w-8" onClick={next}>
               <img
                 className="w-full h-auto"
                 src={paginationArrow}

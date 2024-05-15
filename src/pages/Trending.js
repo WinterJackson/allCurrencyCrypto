@@ -8,8 +8,8 @@ const Trending = () => {
   const { trendData, resetTrendingResult } = useContext(TrendingContext);
 
   return (
-    <section className="w-[80%] h-full flex flex-col mt-16 mb-24 relative">
-      <div className="w-full min-h-[60vh] py-8 flex flex-wrap justify-evenly  border border-gray-100 rounded">
+    <section className="w-[70%] h-full flex flex-col mt-16 mb-24 relative">
+      <div className="w-full min-h-[60vh] py-8 flex flex-wrap justify-evenly  border border-gold rounded">
         {trendData &&
           trendData.map((coin) => (
             <TrendingCoin key={data.coin_id} data={coin.item} />
@@ -25,7 +25,7 @@ const Trending = () => {
             width="1em"
             height="1em"
             viewBox="0 0 24 24"
-            className="w-full h-full fill-cyan"
+            className="w-full h-full fill-gold"
             style={{
               msTransform: "rotate(360deg)",
               WebkitTransform: "rotate(360deg)",

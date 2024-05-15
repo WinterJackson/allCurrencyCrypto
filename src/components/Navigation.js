@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav
       className="w-[40%] mt-16 flex justify-around align-middle
-    border border-cyan rounded-lg
+    
     "
     >
       <NavLink
@@ -16,8 +16,8 @@ const Navigation = () => {
 
 ${
   isActive
-    ? "bg-cyan text-gray-300"
-    : "bg-gray-200 text-gray-100hover:text-cyan active:bg-cyan active:text-gray-300"
+    ? "bg-gold text-gray-300 pt-4 pb-4"
+    : "bg-gray-200 text-gray-100 hover:text-gold active:bg-gold active:text-gray-300 pt-4 pb-4"
 }
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}
@@ -32,8 +32,8 @@ ${
 
 ${
   isActive
-    ? "bg-cyan text-gray-300"
-    : "bg-gray-200 text-gray-100hover:text-cyan active:bg-cyan active:text-gray-300"
+    ? "bg-gold text-gray-300 pt-4 pb-4"
+    : "bg-gray-200 text-gray-100hover:text-gold active:bg-gold active:text-gray-300 pt-4 pb-4"
 }
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}
@@ -48,8 +48,8 @@ ${
 
 ${
   isActive
-    ? "bg-cyan text-gray-300"
-    : "bg-gray-200 text-gray-100hover:text-cyan active:bg-cyan active:text-gray-300"
+    ? "bg-gold text-gray-300 pt-4 pb-4"
+    : "bg-gray-200 text-gray-100hover:text-gold active:bg-gold active:text-gray-300 pt-4 pb-4"
 }
     border-0 cursor-pointer rounded capitalize font-semibold`;
         }}

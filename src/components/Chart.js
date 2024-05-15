@@ -17,7 +17,7 @@ function CustomTooltip({ payload, label, active, currency = "usd" }) {
   if (active && payload && payload.length > 0) {
     return (
       <div className="custom-tooltip">
-        <p className="label text-sm text-cyan">{`${label} : ${new Intl.NumberFormat(
+        <p className="label text-sm text-gold">{`${label} : ${new Intl.NumberFormat(
           "en-IN",
           {
             style: "currency",
@@ -98,7 +98,7 @@ const Chart = ({ id }) => {
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
             type === "prices"
-              ? "bg-cyan text-cyan"
+              ? "bg-gold text-gold"
               : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setType("prices")}
@@ -108,7 +108,7 @@ const Chart = ({ id }) => {
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
             type === "market_caps"
-              ? "bg-cyan text-cyan"
+              ? "bg-gold text-gold"
               : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setType("market_caps")}
@@ -118,7 +118,7 @@ const Chart = ({ id }) => {
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
             type === "total_volumes"
-              ? "bg-cyan text-cyan"
+              ? "bg-gold text-gold"
               : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setType("total_volumes")}
@@ -128,7 +128,7 @@ const Chart = ({ id }) => {
 
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
-            days === 7 ? "bg-cyan text-cyan" : "bg-gray-200 text-gray-100"
+            days === 7 ? "bg-gold text-gold" : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setDays(7)}
         >
@@ -136,7 +136,7 @@ const Chart = ({ id }) => {
         </button>
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
-            days === 14 ? "bg-cyan text-cyan" : "bg-gray-200 text-gray-100"
+            days === 14 ? "bg-gold text-gold" : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setDays(14)}
         >
@@ -144,7 +144,7 @@ const Chart = ({ id }) => {
         </button>
         <button
           className={`text-sm py-0.5 px-1.5 ml-2 bg-opacity-25 rounded capitalize ${
-            days === 30 ? "bg-cyan text-cyan" : "bg-gray-200 text-gray-100"
+            days === 30 ? "bg-gold text-gold" : "bg-gray-200 text-gray-100"
           }`}
           onClick={() => setDays(30)}
         >

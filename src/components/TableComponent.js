@@ -27,14 +27,14 @@ const SaveBtn = ({ data }) => {
         className={`w-[1.5rem] ml-1.5 
                       ${
                         allCoins.includes(data.id)
-                          ? "fill-cyan"
+                          ? "fill-gold"
                           : "fill-gray-100"
                       }
-                       hover:fill-cyan`}
+                       hover:fill-gold`}
         width="30"
         height="30"
         viewBox="0 0 30 30"
-        fill="cyan"
+        fill="gold"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_16_420)">
@@ -55,7 +55,7 @@ const TableComponent = () => {
 
   return (
     <>
-      <div className="flex flex-col mt-9 border border-gray-100 rounded">
+      <div className="flex flex-col mt-9 border border-gold rounded">
         {cryptoData ? (
           <table className="w-full table-auto">
             <thead
@@ -152,7 +152,7 @@ const TableComponent = () => {
         ) : (!error.data && !error.search) ? (
           <div className="w-full min-h-[50vh] flex justify-center items-center">
             <div
-              className="w-8 h-8 border-4 border-solid border-cyan rounded-full border-b-gray-200 animate-spin"
+              className="w-8 h-8 border-4 border-solid border-gold rounded-full border-b-gray-200 animate-spin"
               role="status"
             />
             <span className="text-base ml-2">please wait...</span>
@@ -173,7 +173,7 @@ const TableComponent = () => {
         <span>
           Data provided by{" "}
           <a
-            className="text-cyan"
+            className="text-gold"
             href="http://www.coingecko.com"
             rel="noreferrer"
             target={"_blank"}

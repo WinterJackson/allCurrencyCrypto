@@ -27,14 +27,14 @@ const SaveBtn = ({ data }) => {
         className={`w-[1.5rem] ml-1.5 
                       ${
                         allCoins.includes(data.id)
-                          ? "fill-cyan"
+                          ? "fill-gold"
                           : "fill-gray-100"
                       }
-                       hover:fill-cyan`}
+                       hover:fill-gold`}
         width="30"
         height="30"
         viewBox="0 0 30 30"
-        fill="cyan"
+        fill="gold"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_16_420)">
@@ -55,8 +55,8 @@ const Saved = () => {
   let { currency } = useContext(CryptoContext);
 
   return (
-    <section className="w-[80%] h-full flex flex-col mt-16 mb-24 relative">
-      <div className="w-full min-h-[60vh] py-8  border border-gray-100 rounded">
+    <section className="w-[70%] h-full flex flex-col mt-16 mb-24 relative">
+      <div className="w-full min-h-[60vh] py-8  border border-gold rounded">
         {savedData ? (
           <table className="w-full table-auto">
             <thead className="capitalize text-base text-gray-100 font-medium border-b border-gray-100 ">
@@ -161,7 +161,7 @@ const Saved = () => {
             </tbody>
           </table>
         ) : (
-          <h1 className="min-h-[60vh] text-lg text-cyan flex items-center justify-center">
+          <h1 className="min-h-[60vh] text-lg text-gold flex items-center justify-center">
             There is no data to display!
           </h1>
         )}
@@ -176,7 +176,7 @@ const Saved = () => {
             width="1em"
             height="1em"
             viewBox="0 0 24 24"
-            className="w-full h-full fill-cyan"
+            className="w-full h-full fill-gold"
             style={{
               msTransform: "rotate(360deg)",
               WebkitTransform: "rotate(360deg)",
