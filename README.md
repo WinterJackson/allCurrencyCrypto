@@ -1,44 +1,72 @@
-# React Website Tutorial: ⭐Build Feature Rich Crypto Screener App with Tailwind CSS
+# allCurrency - Cryptocurrency Tool
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/CryptoBucks-A-crypto-screener-application?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+This is a comprehensive tool for monitoring cryptocurrency exchange rates, tracking trends of individual cryptocurrencies, and displaying their current prices in various supported currencies. Whether you're a cryptocurrency enthusiast, investor, or trader, CryptoExchange provides valuable insights to help you stay informed and make informed decisions in the dynamic world of cryptocurrencies.
 
-This repository contains final code for Crypto Screener Application in ReactJS. <br />
+## Table of Contents
+- Introduction
+- Features
+- Installation
+- Usage
+- Technologies Used
+- Contribution
+- License
+- Author
 
-For Demo and Final Code checkout following link👇: <br />
-[Crypto Screener Application in ReactJS](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css) <br />
+## Introduction
+It offers a centralized platform for accessing real-time data on cryptocurrency exchange rates and prices from the CoinGecko api. It simplifies the process of monitoring multiple cryptocurrencies and enables users to stay updated on market trends, facilitating informed decision-making.
 
-Here are the starter code files👇: <br />
-https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application <br />
+## Features
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-[Build Crypto Screener Application in React JS](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css)
-[![YouTube Video Views](https://img.shields.io/youtube/views/JPlVb3t6kx8?style=social)](https://youtu.be/cT160dOzpGY)<br />
+### Cryptocurrency Exchange Rates
+- View real-time exchange rates for various cryptocurrencies against different fiat currencies.
+- Stay informed about fluctuations in exchange rates to optimize trading strategies and investment decisions.
 
-<h3 align="left">▶ Support me via:</h3><br />
-<p><a href="https://www.buymeacoffee.com/CodeBucks" target="_blank"> <img  src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="210" alt="CodeBucks" ></img></a></p><br />
+### Cryptocurrency Trends
+- Track trends of individual cryptocurrencies over time to identify patterns and assess market sentiment.
+- Analyze historical data to make informed predictions and optimize trading strategies.
 
-### Images of The Crypto Screener Website:
+### Current Prices
+- Access current prices of cryptocurrencies in different supported currencies.
+- Monitor price movements and assess market dynamics to make timely investment decisions.
 
-![Crypto](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto.png)
-![Crypto-CryptoDetails](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-CryptoDetails.png)
-![Trending](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Trending.png)
-![Saved](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Saved.png)
-![Trending-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Trending-Mobile.png)
-![Crypto-CryptoDetails-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-CryptoDetails-Mobile.png)
-![Crypto-Mobile](https://github.com/codebucks27/CryptoBucks-A-crypto-screener-application/blob/main/Website-Images/Crypto-Mobile.png)
+## Screenshots
 
-### Resources Used in This Project
+<div style="display: grid; justify-content: center;">
+    <img src="./src/assets/acc.png" alt="Screenshot 1" style="width: 40%; margin-right: 30px;">
+    <img src="./src/assets/acc2.png" alt="Screenshot 2" style="width: 40%;">
+</div>
 
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- API from https://www.coingecko.com/en/api <br />
+## Installation
+1. Clone the repository:
 
-### External Libraries used in this project:
+git clone git@github.com:WinterJackson/allCurrencyCrypto.git
 
-- [Tailwind css](https://tailwindcss.com/) <br />
-- [recharts](https://recharts.org/en-US/) <br />
+2. Navigate to the project directory:
 
+cd allCurrencyCrypto
 
+## Usage
+1. Install dependencies:
+
+npm install
+
+2. Start the application:
+
+npm start
+
+3. Open your preferred web browser and navigate to the provided URL.
+4. Explore the various features explained above.
+
+## Technologies Used
+- React JS
+- Tailwind CSS
+
+## Contribution
+Contributions to allCurrency are welcome! If you have any ideas, suggestions, or bug reports, please open an issue on the GitHub repository. You can also fork the repository, make changes, and submit a pull request.
+
+## License
+Licensed under the MIT License.
+
+## Author
+Winter Jackson
 
