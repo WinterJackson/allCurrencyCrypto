@@ -32,8 +32,8 @@ It offers a centralized platform for accessing real-time data on cryptocurrency 
 ## Screenshots
 
 <div style="display: grid; justify-content: center;">
-    <img src="./src/assets/acc.png" alt="Screenshot 1" style="width: 40%; margin-right: 30px;">
-    <img src="./src/assets/acc2.png" alt="Screenshot 2" style="width: 40%;">
+    <img src="./src/assets/acc.png" alt="Screenshot 1" style="width: 100%;">
+    <img src="./src/assets/acc2.png" alt="Screenshot 2" style="width: 100%;">
 </div>
 
 ## Installation
